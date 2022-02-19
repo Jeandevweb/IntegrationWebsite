@@ -1,0 +1,59 @@
+@import "../utilities/animations";
+
+// <!-------------- DOCS HEADER  ------------->
+
+.docs-header{
+    background: $primary-color;
+    color: white;
+    img{
+        width: 200px;
+        justify-self: flex-end;
+    }
+}
+
+
+// <!-------------- DOCS MAIN ------------->
+
+.docs-main{
+    .container{
+        .card:first-child{
+            background-color:#eee8e8;  
+            li{
+                font-size:17px;
+                padding-bottom: 5px;
+                margin-bottom: 5px;
+                border-bottom: 1px solid #ccc;
+            } 
+        }
+        .text-primary{
+            color: $primary-color;
+            font-weight: bold;
+        }
+    }
+    h2{
+        font-weight: bold;
+        font-size:27px;  
+    }
+    h3{
+        margin: 20px 0;
+        font-weight: bold;
+        font-size:20px;
+    }
+    .grid{
+        grid-template-columns: 1fr 2fr;
+        align-items: flex-start;
+    }
+   
+    
+    a{
+        &:hover{
+            font-weight: bold;
+            color: $primary-color;
+        }
+    }
+    code, pre {
+        background: #333;
+        color: white;
+        padding: 10px;
+    }
+}

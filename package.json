@@ -1,0 +1,16 @@
+{
+  "name": "Loruki-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.49.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass -w scss:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
